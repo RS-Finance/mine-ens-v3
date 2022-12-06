@@ -18,14 +18,14 @@
   "addTextRecord": {
     "title": "Voeg Text Records toe",
     "explanation": "Je moet een nieuw DNS record creeeren voor je domain met de volgende details. Dit zal jouw Ethereum Adres als owner van deze naam zetten.",
-    "syncWarningOne": "Het lijkt erop dat je niet de DNS Eigenaar van dit domain bent, maar je kan hem nogsteeds toevoegen aan de ENS Registry.",
-    "syncWarningTwo": "Als je eigenaar van dit domain bent verander de _ens TXT record om je Ethereum Adres te hebben en click 'Check' opnieuw, anders click op 'Claim' om door te gaan.",
+    "syncWarningOne": "Het lijkt erop dat je niet de DNS Eigenaar van dit domain bent, maar je kan hem nogsteeds toevoegen aan de ANS Registry.",
+    "syncWarningTwo": "Als je eigenaar van dit domain bent verander de _ans TXT record om je Ethereum Adres te hebben en click 'Check' opnieuw, anders click op 'Claim' om door te gaan.",
     "type": "Type",
     "txt": "TXT",
     "errors": {
       "SUBDOMAIN_NOT_SET": {
         "title": "Subdomein niet gezet",
-        "content": "Zet aub je _ens subdomein naar de waarde zoals hierboven."
+        "content": "Zet aub je _ans subdomein naar de waarde zoals hierboven."
       },
       "DNS_RECORD_DOES_NOT_EXIST": {
         "title": "Record bestaat niet",
@@ -40,7 +40,7 @@
   "claimComplete": {
     "title": "Gefeliciteerd!",
     "ownerOf": "Je bent nu de eigenaar van:",
-    "successMessage": "Je domain naam is successvol geimporteerd naar ENS. Je kan nu de naam bekijken en aanpassen.",
+    "successMessage": "Je domain naam is successvol geimporteerd naar ANS. Je kan nu de naam bekijken en aanpassen.",
     "viewName": "Bekijk Naam",
     "claimAnother": "Claim nog een"
   },

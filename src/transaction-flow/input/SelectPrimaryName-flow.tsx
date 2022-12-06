@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useInfiniteQuery } from 'wagmi'
 
-import { truncateFormat } from '@ensdomains/ensjs/utils/format'
+import { truncateFormat } from '@ansdomain/ensjs/utils/format'
 import { Button, Dialog, Heading, RadioButton, RadioButtonGroup } from '@ensdomains/thorin'
 
 import { InnerDialog } from '@app/components/@atoms/InnerDialog'

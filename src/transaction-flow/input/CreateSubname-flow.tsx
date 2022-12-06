@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useQuery } from 'wagmi'
 
-import { validateName } from '@ensdomains/ensjs/utils/validation'
+import { validateName } from '@ansdomain/ensjs/utils/validation'
 import { Button, Dialog, Input } from '@ensdomains/thorin'
 
 import { InnerDialog } from '@app/components/@atoms/InnerDialog'

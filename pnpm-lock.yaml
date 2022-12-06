@@ -24,6 +24,7 @@ patchedDependencies:
     path: patches/react-confetti@6.1.0.patch
 
 specifiers:
+  '@ansdomain/ensjs': 3.0.0-alpha.375
   '@cloudflare/workers-types': ^3.14.1
   '@cloudflare/wrangler': ^1.19.12
   '@deploysentinel/cypress-debugger': ^0.5.5
@@ -35,7 +36,6 @@ specifiers:
   '@ensdomains/ens-contracts': 0.0.15
   '@ensdomains/ens-test-env': ^0.3.5
   '@ensdomains/ens-validation': ^0.1.0
-  '@ensdomains/ensjs': 3.0.0-alpha.37
   '@ensdomains/eth-ens-namehash': ^2.0.15
   '@ensdomains/thorin': 0.6.20
   '@ethersproject/providers': ^5.7.0
@@ -148,13 +148,13 @@ specifiers:
   yalc: ^1.0.0-pre.53
 
 dependencies:
+  '@ansdomain/ensjs': 3.0.0-alpha.375_7mf75m2uyv7dow77vgezq7etiu
   '@ensdomains/address-encoder': 0.2.18
   '@ensdomains/content-hash': 2.5.7
   '@ensdomains/dnsprovejs': 0.4.1
   '@ensdomains/dnssecoraclejs': 0.2.7_kdpqpin542yrq2nndtznhtz4cm
   '@ensdomains/ens-contracts': 0.0.15_hardhat@2.11.2
   '@ensdomains/ens-validation': 0.1.0
-  '@ensdomains/ensjs': 3.0.0-alpha.37_7mf75m2uyv7dow77vgezq7etiu
   '@ensdomains/eth-ens-namehash': 2.0.15
   '@ensdomains/thorin': 0.6.20_6haozuff5ofofiwuoke6ixqiri
   '@rainbow-me/rainbowkit': 0.4.8_zczigdeajjlj6h32kv7vfprn2y_wiydppdk2wtsgvuygzl3yf3yma
@@ -285,6 +285,37 @@ packages:
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.17
+
+  /@ansdomain/ensjs/3.0.0-alpha.375_7mf75m2uyv7dow77vgezq7etiu:
+    resolution: {integrity: sha512-CKUsJLXeY4090W9BZp9TWap6iVZ4h1arsNdJOmYTRZCX/Ky6oZC8F8VLB+9YqgnU5ZXigaSnALkeGy3FtRhBKQ==}
+    peerDependencies:
+      ethers: '*'
+    dependencies:
+      '@ensdomains/address-encoder': 0.2.18
+      '@ensdomains/content-hash': 2.5.7
+      '@ensdomains/dnsprovejs': 0.4.1
+      '@ensdomains/dnssecoraclejs': 0.2.7_kdpqpin542yrq2nndtznhtz4cm
+      dns-packet: 5.4.0
+      ethers: 5.7.1
+      graphql: 16.6.0
+      graphql-request: 5.1.0-next.6_graphql@16.6.0
+      idna-uts46-hx: 3.4.0
+      traverse: 0.6.6
+    transitivePeerDependencies:
+      - '@nomiclabs/hardhat-web3'
+      - bufferutil
+      - encoding
+      - hardhat
+      - supports-color
+      - ts-node
+      - typescript
+      - utf-8-validate
+      - web3
+      - web3-core-helpers
+      - web3-core-promievent
+      - web3-eth-abi
+      - web3-utils
+    dev: false
 
   /@babel/code-frame/7.12.11:
     resolution: {integrity: sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==}
@@ -2288,37 +2319,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
-
-  /@ensdomains/ensjs/3.0.0-alpha.37_7mf75m2uyv7dow77vgezq7etiu:
-    resolution: {integrity: sha512-qO/1lSDCT3QB4p2+phagpovYoGR8oRDRjKVDmaik0IdqFtC6HabXGVRIUIKUbiyk+/2tmG8VXIxFdLIvi18LAA==}
-    peerDependencies:
-      ethers: '*'
-    dependencies:
-      '@ensdomains/address-encoder': 0.2.18
-      '@ensdomains/content-hash': 2.5.7
-      '@ensdomains/dnsprovejs': 0.4.1
-      '@ensdomains/dnssecoraclejs': 0.2.7_kdpqpin542yrq2nndtznhtz4cm
-      dns-packet: 5.4.0
-      ethers: 5.7.1
-      graphql: 16.6.0
-      graphql-request: 5.1.0-next.6_graphql@16.6.0
-      idna-uts46-hx: 3.4.0
-      traverse: 0.6.6
-    transitivePeerDependencies:
-      - '@nomiclabs/hardhat-web3'
-      - bufferutil
-      - encoding
-      - hardhat
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-      - web3
-      - web3-core-helpers
-      - web3-core-promievent
-      - web3-eth-abi
-      - web3-utils
-    dev: false
 
   /@ensdomains/eth-ens-namehash/2.0.15:
     resolution: {integrity: sha512-JRDFP6+Hczb1E0/HhIg0PONgBYasfGfDheujmfxaZaAv/NAH4jE6Kf48WbqfRZdxt4IZI3jl3Ri7sZ1nP09lgw==}
