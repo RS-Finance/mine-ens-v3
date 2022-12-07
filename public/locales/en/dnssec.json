@@ -19,13 +19,13 @@
     "title": "Add Text Records",
     "explanation": "You need to create a new DNS record for your domain using these details. This will claim your Ethereum address as the owner of this domain.",
     "syncWarningOne": "You don't appear to be the DNS Owner of this domain, but you can still add this name to ANS Registry.",
-    "syncWarningTwo": "If you own this domain change its _ans TXT record to contain your Ethereum Address and click 'Check' again, otherwise click 'Claim' to proceed.",
+    "syncWarningTwo": "If you own this domain change its _ens TXT record to contain your Ethereum Address and click 'Check' again, otherwise click 'Claim' to proceed.",
     "type": "Type",
     "txt": "TXT",
     "errors": {
       "SUBDOMAIN_NOT_SET": {
         "title": "Subdomain not set",
-        "content": "Please set your _ans subdomain with the value shown above."
+        "content": "Please set your _ens subdomain with the value shown above."
       },
       "DNS_RECORD_DOES_NOT_EXIST": {
         "title": "Record does not exist",

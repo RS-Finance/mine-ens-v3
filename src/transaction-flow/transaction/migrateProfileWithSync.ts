@@ -1,7 +1,6 @@
+import type { RecordOptions } from '@ansdomain/ensjs/utils/recordHelpers'
 import type { JsonRpcSigner } from '@ethersproject/providers'
 import type { TFunction } from 'react-i18next'
-
-import type { RecordOptions } from '@ensdomains/ensjs/utils/recordHelpers'
 
 import { Profile, PublicENS, RecordItem, Transaction, TransactionDisplayItem } from '@app/types'
 import { recordItemToKeyValue } from '@app/utils/editor'

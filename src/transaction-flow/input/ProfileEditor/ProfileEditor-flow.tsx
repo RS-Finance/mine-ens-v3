@@ -1,8 +1,8 @@
+import { RecordOptions } from '@ansdomain/ensjs/utils/recordHelpers'
 import { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { RecordOptions } from '@ensdomains/ensjs/utils/recordHelpers'
 import { Button, mq } from '@ensdomains/thorin'
 
 import { Banner } from '@app/components/@atoms/Banner/Banner'

@@ -12,7 +12,7 @@ describe('Update Resolver', () => {
     describe('When profile is updated to latest resolver', () => {
       it('should disable the latest resolver button, have custom resolver checked, and allow user to change reslover address', () => {
         cy.visit(
-          '/profile/wrapped.eth/details?from=%2Fprofile%2Fwrapped.eth%3Ffrom%3D%252Fmy%252Fnames&name=wrapped.eth&tab=advanced',
+          '/profile/wrapped.arb/details?from=%2Fprofile%2Fwrapped.arb%3Ffrom%3D%252Fmy%252Fnames&name=wrapped.arb&tab=advanced',
         )
         cy.findByTestId('accordion-resolverDetails-edit').click()
         cy.findByTestId('latest-resolver-radio').should('be.disabled')

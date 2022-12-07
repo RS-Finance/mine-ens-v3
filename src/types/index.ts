@@ -3,7 +3,7 @@ import { PopulatedTransaction } from 'ethers'
 import { ComponentProps } from 'react'
 import type { TFunction } from 'react-i18next'
 
-import type { ENS } from '@ensdomains/ensjs'
+import type { ENS } from 'ansdomain/ensjs'
 import { Helper } from '@ensdomains/thorin'
 
 export type Profile = NonNullable<Awaited<ReturnType<ENS['getProfile']>>>

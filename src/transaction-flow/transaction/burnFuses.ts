@@ -1,7 +1,6 @@
+import type { NamedFusesToBurn } from '@ansdomain/ensjs'
 import type { JsonRpcSigner } from '@ethersproject/providers'
 import type { TFunction } from 'react-i18next'
-
-import type { NamedFusesToBurn } from '@ensdomains/ensjs'
 
 import { PublicENS, Transaction, TransactionDisplayItem } from '@app/types'
 

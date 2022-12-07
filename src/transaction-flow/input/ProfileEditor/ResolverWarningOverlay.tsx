@@ -157,7 +157,7 @@ const ResolverWarningOverlay = ({
     oldRegistry: {
       dismissable: false,
       as: 'a',
-      href: `https://app.ens.domains/name/${name}`,
+      href: `https://app.arbitrum.domains/name/${name}`,
     },
     default: {
       handler: handleTransferProfile,

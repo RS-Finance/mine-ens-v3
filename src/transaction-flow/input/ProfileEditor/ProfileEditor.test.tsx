@@ -19,7 +19,7 @@ import { useBreakpoint } from '@app/utils/BreakpointProvider'
 import ProfileEditor from './ProfileEditor-flow'
 
 const appPackage = require('@app/../package.json')
-const ensjsPackage = require('@app/../node_modules/@ensdomains/ensjs/package.json')
+const ensjsPackage = require('@app/../node_modules/@ansdomain/ensjs/package.json')
 
 const mockProfileData = {
   profile: {

@@ -4,7 +4,7 @@ import { ethers } from 'hardhat'
 import { DeployFunction } from 'hardhat-deploy/types'
 import { HardhatRuntimeEnvironment } from 'hardhat/types'
 
-import { labelhash } from '@ensdomains/ensjs/utils/labels'
+import { labelhash } from '@ansdomain/ensjs/utils/labels'
 
 const ZERO_HASH = '0x0000000000000000000000000000000000000000000000000000000000000000'
 

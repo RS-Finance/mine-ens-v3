@@ -19,7 +19,7 @@ export const KnownResolveAddresses: {
       'IInterfaceResolver',
     ],
   },
-  '0xdaaf96c344f63131acadd0ea35170e7892d3dfba': {
+  '0x2bB117Bee0DB4D64fA0f6e7728BD07baA839e50c': { // goerli
     supportedInterfaces: [
       'IAddrResolver',
       'IAddressResolver',
@@ -68,9 +68,9 @@ const validateResolver: ValidateResolver = async (
   interfaces,
   address,
   provider,
-  options = { networkId: 1 },
+  options = { networkId: 5 },
 ) => {
-  if (KnownResolveAddresses[address] && options.networkId === 1) {
+  if (KnownResolveAddresses[address] && options.networkId === 5) {
     const { supportedInterfaces } = KnownResolveAddresses[address]
     return interfaces
       .map((interfaceName) => {

@@ -1,7 +1,7 @@
+import type { Name } from '@ansdomain/ensjs/functions/getNames'
 import { useEffect, useMemo, useState } from 'react'
 import { useQuery } from 'wagmi'
 
-import type { Name } from '@ensdomains/ensjs/functions/getNames'
 
 import { useEns } from '@app/utils/EnsProvider'
 import { GRACE_PERIOD } from '@app/utils/constants'

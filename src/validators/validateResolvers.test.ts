@@ -46,7 +46,7 @@ describe('validateResolver', () => {
         'IDNSRecordResolver',
         'IInterfaceResolver',
       ],
-      '0xdaaf96c344f63131acadd0ea35170e7892d3dfbb',
+      '0x2bB117Bee0DB4D64fA0f6e7728BD07baA839e50c',
       {},
       undefined,
     )

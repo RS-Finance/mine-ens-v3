@@ -1,6 +1,6 @@
+import { namehash } from '@ansdomain/ensjs/utils/normalise'
 import { useQuery } from 'wagmi'
 
-import { namehash } from '@ansdomain/ensjs/utils/normalise'
 
 import { useEns } from '@app/utils/EnsProvider'
 

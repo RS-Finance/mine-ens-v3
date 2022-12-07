@@ -51,7 +51,7 @@ const profiles = [
         key: 'avatar',
         value: 'https://avatar-...',
         fullValue:
-          'https://avatar-upload.ens-cf.workers.dev/goerli/wrapmebaby.eth?timestamp=1666267425956',
+          'https://avatar-upload.ens-cf.workers.dev/goerli/wrapmebaby.arb?timestamp=1666267425956',
       },
       {
         type: 'other',
