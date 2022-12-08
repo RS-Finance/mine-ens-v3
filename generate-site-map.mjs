@@ -9,8 +9,8 @@ import {
   XMLToSitemapItemStream,
 } from 'sitemap'
 
-const baseURL = 'https://alpha.ens.domains'
-const graphAPI = 'https://api.thegraph.com/subgraphs/name/ensdomains/ens'
+const baseURL = 'https://alpha.arbitrum.domains'
+const graphAPI = 'https://api.thegraph.com/subgraphs/name/ansdomain/testnet-subgraph'
 
 const queryAll = gql`
   query allNames($lastCreatedAt: String) {
