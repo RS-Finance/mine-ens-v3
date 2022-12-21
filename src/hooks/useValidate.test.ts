@@ -1,8 +1,7 @@
 import { mockFunction, renderHook } from '@app/test-utils'
 
-import { isAddress } from 'ethers/lib/utils'
-
 import { parseInputType, validateName } from '@ansdomain/ensjs/utils/validation'
+import { isAddress } from 'ethers/lib/utils'
 
 import { useValidate, useValidateOrAddress } from './useValidate'
 

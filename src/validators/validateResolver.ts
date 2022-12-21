@@ -6,7 +6,21 @@ export const KnownResolveAddresses: {
     supportedInterfaces: ContractInterface[]
   }
 } = {
-  '0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41': {
+  // '0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41': {
+  //   supportedInterfaces: [
+  //     'IAddrResolver',
+  //     'IAddressResolver',
+  //     'INameResolver',
+  //     'IABIResolver',
+  //     'IPubkeyResolver',
+  //     'ITextResolver',
+  //     'IContentHashResolver',
+  //     'IDNSRecordResolver',
+  //     'IInterfaceResolver',
+  //   ],
+  // },
+  '0x2bB117Bee0DB4D64fA0f6e7728BD07baA839e50c': {
+    // goerli
     supportedInterfaces: [
       'IAddrResolver',
       'IAddressResolver',
@@ -19,40 +33,27 @@ export const KnownResolveAddresses: {
       'IInterfaceResolver',
     ],
   },
-  '0x2bB117Bee0DB4D64fA0f6e7728BD07baA839e50c': { // goerli
-    supportedInterfaces: [
-      'IAddrResolver',
-      'IAddressResolver',
-      'INameResolver',
-      'IABIResolver',
-      'IPubkeyResolver',
-      'ITextResolver',
-      'IContentHashResolver',
-      'IDNSRecordResolver',
-      'IInterfaceResolver',
-    ],
-  },
-  '0x226159d592e2b063810a10ebf6dcbada94ed68b8': {
-    supportedInterfaces: [
-      'IAddrResolver',
-      'IAddressResolver',
-      'INameResolver',
-      'IABIResolver',
-      'IPubkeyResolver',
-      'ITextResolver',
-      'IContentHashResolver',
-      'IInterfaceResolver',
-    ],
-  },
-  '0x1da022710df5002339274aadee8d58218e9d6ab5': {
-    supportedInterfaces: [
-      'IAddressResolver',
-      'INameResolver',
-      'IABIResolver',
-      'IPubkeyResolver',
-      'IInterfaceResolver',
-    ],
-  },
+  // '0x226159d592e2b063810a10ebf6dcbada94ed68b8': {
+  //   supportedInterfaces: [
+  //     'IAddrResolver',
+  //     'IAddressResolver',
+  //     'INameResolver',
+  //     'IABIResolver',
+  //     'IPubkeyResolver',
+  //     'ITextResolver',
+  //     'IContentHashResolver',
+  //     'IInterfaceResolver',
+  //   ],
+  // },
+  // '0x1da022710df5002339274aadee8d58218e9d6ab5': {
+  //   supportedInterfaces: [
+  //     'IAddressResolver',
+  //     'INameResolver',
+  //     'IABIResolver',
+  //     'IPubkeyResolver',
+  //     'IInterfaceResolver',
+  //   ],
+  // },
 }
 
 type ValidateContract = typeof validateContract

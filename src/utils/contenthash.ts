@@ -1,7 +1,7 @@
+import { DecodedContentHash } from '@ansdomain/ensjs/utils/contentHash'
 import { utils } from 'ethers'
 
 import contentHash from '@ensdomains/content-hash'
-import { DecodedContentHash } from '@ansdomain/ensjs/utils/contentHash'
 
 type EncodedContentHash = {
   encoded?: string
